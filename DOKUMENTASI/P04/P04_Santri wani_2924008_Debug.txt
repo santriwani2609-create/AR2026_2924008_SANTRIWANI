@@ -1,0 +1,4 @@
+Nama file	: RotateObject.cs
+Nomor baris	: (5,29)
+Pesan error	: Assets\Scripts\RotateObject.cs(5,29): error CS1002: ; 		  expected
+Perbaikan	: Menambahkan kembali tanda titik koma (;) di akhir baris
