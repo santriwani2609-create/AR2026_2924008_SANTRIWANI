@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1390782970514954791
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 2
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 0}
+    m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/6.1%20-%20Build%20your%20portfolio/6.1.3%20-%20Add%20your%20name%20-%20VIDEO.webm
+    m_AutoStart: 0
+    m_Loop: 0
+--- !u!114 &-544419991261264656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: You can personalize the <b>Main Menu</b> scene with your name to add a touch of individuality and signify ownership of your work.
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_6.1.3
+  m_EditorClassIdentifier: 
+  <IndexInTutorial>k__BackingField: 0
+  Title:
+    m_Untranslated: Add your name
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -1390782970514954791}
+  - {fileID: -544419991261264656}
+  - {fileID: 5294872248147300049}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &5294872248147300049
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: Instructions
+  Text:
+    m_Untranslated: "<b>1.</b>  In the <b>Hierarchy</b> window, expand <b>Canvas</b> > <b>Panel_Name </b> > <b>Name_Text</b>, then select the <b>Name_Text</b> GameObject.\n\nThe <b>Canvas</b> is a special type of GameObject in Unity that all UI elements need to be inside.\n\n<b>2.</b>  With <b>Name_Text</b> selected, locate the <b>TextMeshPro - Text (UI)</b> component in the <b>Inspector</b> window. Change the placeholder \"Your Name\" text to your name. \n\n<b>Note:</b>  Later, we'll encourage you to publish your project. Feel free to use only your first name or first name and last initial for privacy reasons. \n\n<b>3.</b>  If you want, explore other font properties within the <b>TextMeshPro</b> component to adjust the font size, style, and color.\n\n<b>4.</b>  Save the <b>Main Menu</b> scene with <b>Ctrl+S</b> (macOS: <b>Cmd+S</b>)."
+  m_CriteriaCompletion: 0
+  m_Criteria:
+    m_Items: []

@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5236250577318797679
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "Right now, the collectible is like an immovable rock \u2014 it won\u2019t budge when the player collides with it at full speed, and it even knocks the player off its course! You need to set up the collectible so that the player can pass through it without any visible physical collision or bump. \n\nYou can achieve this with the <b>Is Trigger</b> property of the <b>Collider</b> component. When you tell a collider component to act as a trigger instead of a physical collider, it will no longer have a solid barrier, but it can still detect entry by the player or other GameObjects. \n\nA <b>trigger collider</b> makes an object act more like a cloud. Even though it looks solid, an airplane can still pass right through it, and the pilot knows when they\u2019ve gone through it."
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_4.3.2
+  m_EditorClassIdentifier: 
+  <IndexInTutorial>k__BackingField: 0
+  Title:
+    m_Untranslated: Allow the player to go through the collectible
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: 1127155900232433704}
+  - {fileID: -5236250577318797679}
+  - {fileID: 1146556404279870678}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &1127155900232433704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 2
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 0}
+    m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.3%20-%20Collect%20the%20collectibles/4.3.2%20-%20Allow%20the%20player%20to%20go%20through%20the%20collectible%20-%20VIDEO.webm
+    m_AutoStart: 0
+    m_Loop: 0
+--- !u!114 &1146556404279870678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: Instructions
+  Text:
+    m_Untranslated: "<b>1.</b>  Make sure that the collectible is positioned in your scene so that the player can run into it.\n\n<b>2.</b>  Enter Play mode and try to collide with the collectible \u2014 notice what happens. Exit Play mode when you\u2019re done testing.\n\n<b>3.</b>  Select the collectible object, then locate its <b>Collider</b> component.\n\n<b>4.</b>  In the <b>Collider</b> component, enable the <b>Is Trigger</b> property. This transforms the physical collider into a trigger area.\n\n<b>5.</b>  Enter Play mode to test it again. Verify that the player can move through the collectible without any physical resistance. \n\nThe collectible still doesn't disappear when the player moves over it. You\u2019ll work on that next.\n\nRemember to exit <b>Play</b> mode when you\u2019re done testing!"
+  m_CriteriaCompletion: 0
+  m_Criteria:
+    m_Items: []

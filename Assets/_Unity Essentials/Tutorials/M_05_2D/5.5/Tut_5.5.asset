@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8318194300428754817
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "You have completed all the work for this Mission of the Pathway, where you have learned the essentials of getting started with 2D in Unity.\n\nThink back to all you accomplished in this Mission:\n\n\u2022 You set up the 2D player that the user can move around, without going outside the walls.\n\u2022 You filled out the 2D room with pushable furniture, collectibles, and a UI that tracks the player's progress.\n\u2022 You used the <b>Sprite Editor</b> to configure a 2D animated cat or dog.\n\nNow all that's left to do is complete a quiz to make sure you know your stuff. \n\nWhen you pass the quiz, you\u2019ll get XP and a badge for completing this portion of the Pathway, getting you one step closer to earning the Unity Essentials Pathway badge. "
+--- !u!114 &-3514287864273043548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 1_Continue_to_the_next_Mission
+  m_EditorClassIdentifier: 
+  <IndexInTutorial>k__BackingField: 1
+  Title:
+    m_Untranslated: Continue to the next Mission
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: 8566268253486868806}
+  - {fileID: -2140232234885756917}
+  - {fileID: 6425681596819595660}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &-2140232234885756917
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: 'If you passed the quiz, then you have successfully completed this Mission.
+
+      Congratulations! That is an amazing accomplishment. '
+--- !u!114 &-850936066468258358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 0_Complete_the_quiz
+  m_EditorClassIdentifier: 
+  <IndexInTutorial>k__BackingField: 0
+  Title:
+    m_Untranslated: Complete the quiz
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -8318194300428754817}
+  - {fileID: 6013674656962277394}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
+  m_Name: Tut_5.5
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  TutorialTitle:
+    m_Untranslated: Complete the quiz checkpoint
+  m_LessonId: 2a9c15e5-c264-4aa4-80ad-f341b7dfe8bc
+  m_Pages:
+    m_Items:
+    - {fileID: -850936066468258358}
+    - {fileID: -3514287864273043548}
+  m_SceneManagementBehavior: 1
+  m_ReturnToPreviousScenes: 0
+  m_Scenes: []
+  m_DefaultSceneCameraSettings:
+    m_CameraMode: 1
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0.7414055
+    m_Pivot: {x: 12, y: 8, z: -15}
+    m_Rotation: {x: -0.20906472, y: 0.2526841, z: -0.05601874, w: -0.9430295}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  m_ProgressTrackingEnabled: 1
+  m_WindowLayout: {fileID: 0}
+  CompletionDialog: {fileID: 0}
+  Initiated:
+    m_PersistentCalls:
+      m_Calls: []
+  PageInitiated:
+    m_PersistentCalls:
+      m_Calls: []
+  GoingBack:
+    m_PersistentCalls:
+      m_Calls: []
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Quit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Scene: {fileID: 0}
+  m_TutorialTitle: 
+  m_FaqEntries: []
+--- !u!114 &6013674656962277394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: Instructions
+  Text:
+    m_Untranslated: "<b>1.</b>  Complete the <a href=\"https://learn.unity.com/tutorial/66c3ae63edbc2a18fb172e6b?pathwayId=66c4af96edbc2a1604fdfba1&missionId=66c4ae60edbc2a1f9ecd8b03&utm_source=essentials-1.0.0&utm_medium=iet#66c3ae63edbc2a18fb172e6e\">quiz for this Mission on Unity Learn.</a>\n\n<b>2.</b>  After you complete the quiz, come back to this tutorial and continue on to the next step. \n"
+  m_CriteriaCompletion: 0
+  m_Criteria:
+    m_Items: []
+--- !u!114 &6425681596819595660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: Instructions
+  Text:
+    m_Untranslated: Select <b>Done</b> below, then go back to the Essentials Pathway main menu where you can see all of the Missions, and proceed to the next one!
+  m_CriteriaCompletion: 0
+  m_Criteria:
+    m_Items: []
+--- !u!114 &8566268253486868806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 1
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 0
+    m_Image: {fileID: 2800000, guid: 3a01ce4fa99724e48af4ba00909fc8b5, type: 3}
+    m_VideoClip: {fileID: 0}
+    m_Url: 
+    m_AutoStart: 1
+    m_Loop: 1

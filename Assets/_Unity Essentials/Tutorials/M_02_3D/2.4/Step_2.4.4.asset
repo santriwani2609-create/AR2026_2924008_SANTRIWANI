@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4744203381796595991
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "Lighting sets the mood and atmosphere of your scene. Unity's default <b>Directional Light</b> \u2014 which acts like the sun in the real world \u2014 simulates bright, midday sunlight. \n\nBy rotating this light, you can simulate different times of day or specific lighting conditions."
+--- !u!114 &-795595329833979828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: Instructions
+  Text:
+    m_Untranslated: "<b>1.</b>  In the <b>Hierarchy</b> window, select the <b>Directional Light</b> GameObject then frame it in the <b>Scene</b> view. \n\n<b>2.</b>  Rotate the light to adjust the shadows and overall lighting. \n\n<b>Note:</b> Changes in position won\u2019t affect the lighting due to its sun-like nature \u2014 it represents a light that\u2019s located infinitely far away and emits light in only one direction. \n\n<b>3.</b>  In the <b>Inspector</b> window, in the <b>Emission</b> section, experiment with <b>Color</b> and <b>Intensity</b> to find the desired lighting effect for your scene\u200B\u200B. \n\nIf you want more of a nighttime light, make the light more blue and decrease intensity. But feel free to keep the sun at a bright, midday angle if you want!"
+  m_CriteriaCompletion: 0
+  m_Criteria:
+    m_Items: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_2.4.4
+  m_EditorClassIdentifier: 
+  <IndexInTutorial>k__BackingField: 0
+  Title:
+    m_Untranslated: Adjust your lighting
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: 6001318884977129010}
+  - {fileID: -4744203381796595991}
+  - {fileID: -795595329833979828}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &6001318884977129010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 2
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 0}
+    m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/2.4%20-%20Lights%2C%20Camera%2C%20Action/2.4.4%20-%20Adjust%20your%20lighting%20-%20VIDEO.webm
+    m_AutoStart: 0
+    m_Loop: 0

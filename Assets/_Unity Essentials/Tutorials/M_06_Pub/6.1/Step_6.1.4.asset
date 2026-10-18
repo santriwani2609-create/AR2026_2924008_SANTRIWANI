@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5879395772366262489
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b43af98cf241a48618341008f648cb, type: 3}
+  m_Name: MediaParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.MediaParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Media:
+    m_ContentType: 2
+    m_Image: {fileID: 0}
+    m_VideoClip: {fileID: 0}
+    m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/6.1%20-%20Build%20your%20portfolio/6.1.4%20-%20Design%20the%20menu%20scene%20-%20VIDEO.webm
+    m_AutoStart: 0
+    m_Loop: 0
+--- !u!114 &-5844724450219012461
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935228c0fd2628c4db5028980babef0b, type: 3}
+  m_Name: NarrativeParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.NarrativeParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Text:
+    m_Untranslated: "Your <b>Main Menu</b> scene is what people will see when they initially open your project, so you'll want to make a strong first impression! In this step, you\u2019ll design the environment around the floating UI panels to make the <b>Main Menu</b> scene more visually engaging."
+--- !u!114 &-5633262108033187034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456c7c2b477e4253b9e4faf9ed4b18a9, type: 3}
+  m_Name: InstructionsParagraph
+  m_EditorClassIdentifier: Unity.Tutorials.Editor::Unity.Tutorials.Editor.Paragraphs.InstructionsParagraph
+  m_MaskingSettings:
+    m_MaskingEnabled: 0
+    m_UnmaskedViews: []
+    MaskPreset: {fileID: 0}
+  Title:
+    m_Untranslated: Instructions
+  Text:
+    m_Untranslated: "<b>1.</b>  To design this scene more efficiently, try positioning the <b>Game</b> view and <b>Scene</b> view windows side-by-side. \n\nThen, as you position objects, you can immediately see how they look from the user\u2019s camera view. \n\nTo do this, drag the <b>Game</b> view tab to the middle of the rightmost edge of the <b>Scene</b> view window and resize all windows to your liking. \n\n<b>2.</b>  Make sure you\u2019ve exited <b>Play</b> mode.\n\n<b>3.</b>  In the <b>Project</b> window, navigate to <b>Prefabs</b> > <b>Rooms</b> and drag one of the room prefabs into your scene to set a base for the background. \n\nThe room should be somewhere around the origin (0, 0, 0).  \n\n<b>4.</b>  Continue to decorate the scene with additional objects from the Prefabs directory. \n\nExperiment with placing objects in front of or behind UI panels to create a sense of depth.\n\n<b>5.</b>  If you want, you can adjust the position and orientation of the UI panels. You can also adjust the camera's position and angle to better frame the newly decorated background.\n\nMake sure that the main menu remains the focal point.\n\n<b>Note:</b>  Remember to save your scene, and that you can always undo any unwanted changes with <b>Ctrl+Z</b> (macOS: <b>Cmd+Z</b>)."
+  m_CriteriaCompletion: 0
+  m_Criteria:
+    m_Items: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_6.1.4
+  m_EditorClassIdentifier: 
+  <IndexInTutorial>k__BackingField: 0
+  Title:
+    m_Untranslated: Design the menu scene
+  m_LegacyParagraphs:
+    m_Items: []
+  m_PageParagraphs:
+  - {fileID: -5879395772366262489}
+  - {fileID: -5844724450219012461}
+  - {fileID: -5633262108033187034}
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
